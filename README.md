@@ -11,10 +11,9 @@ Apache NetBeans IDE is a powerful integrated development environment that simpli
 4. [Connecting Apache NetBeans to MySQL](#connecting-apache-netbeans-to-mysql)
 5. [Creating Tables](#creating-tables)
 6. [Performing CRUD Operations](#performing-crud-operations)
-7. [Running the Application](#running-the-application)
-8. [Using Apache NetBeans IDE with Swing](#using-apache-netbeans-ide-with-swing)
-9. [Benefits of Swing in GUI Development](#benefits-of-swing-in-gui-development)
-10. [JavaSwing Library](#javaswing-library)
+7. [Using Apache NetBeans IDE with Swing](#using-apache-netbeans-ide-with-swing)
+8. [Benefits of Swing in GUI Development](#benefits-of-swing-in-gui-development)
+9. [JavaSwing Library](#javaswing-library)
     - [Components](#components)
     - [Lightweight Architecture](#lightweight-architecture)
     - [Customization](#customization)
@@ -26,7 +25,7 @@ Apache NetBeans IDE is a powerful integrated development environment that simpli
     - [Drag-and-Drop](#drag-and-drop)
     - [Accessibility](#accessibility)
 
-11. [JavaSwing Components Used in Student-Result-Management-System](#javaswing-components-used-in-student-result-management-system)
+10. [JavaSwing Components Used in Student-Result-Management-System](#javaswing-components-used-in-student-result-management-system)
     - [JFrame](#jframe)
     - [JPanel](#jpanel)
     - [JButton](#jbutton)
@@ -34,7 +33,7 @@ Apache NetBeans IDE is a powerful integrated development environment that simpli
     - [JTable](#jtable)
     - [JPasswordField](#jpasswordfield)
 
-12. [ActionListener Interface](#actionlistener-interface)
+11. [ActionListener Interface](#actionlistener-interface)
     - [Interface Definition](#interface-definition)
     - [Event Source](#event-source)
     - [Registration](#registration)
@@ -87,6 +86,15 @@ Apache NetBeans IDE is a free, open-source integrated development environment fo
 
 3. **Execute Scripts:**
    - Run the SQL scripts to create the tables in your MySQL database.
+   
+## Performing CRUD Operations
+
+1. Implement Data Access Layer:
+
+2. In your NetBeans project, create a Data Access Layer (DAO) to interact with the MySQL database. Implement methods for CRUD operations.
+Connect GUI to Database:
+
+3. Integrate your GUI components with the data access layer. Ensure that data entered in the GUI is saved, updated, and retrieved from the MySQL database.
 
 ## Using Apache NetBeans IDE with Swing
 
